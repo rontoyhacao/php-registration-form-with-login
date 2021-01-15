@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #334e64;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: linear-gradient(20deg, #2c6975, #cde0c9);
+}
+
+.container {
+  width: 20%;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 0 60px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 60px 5px rgba(0, 0, 0, 0.2);
+}
+
+.container .form-container {
+  width: 100%;
+}
+
+.container .form-container .form-inner .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .form-container .form-inner .login input {
+  width: 100%;
+  border: 1px solid #334e64;
+  padding: 5px 15px;
+  border-radius: 20px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.container .form-container .form-inner .login .submit {
+  width: 80%;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background: #2c6975;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+.container .form-container .form-inner .login .submit:hover {
+  opacity: 0.8;
+}
+
+.container .form-container .form-inner a {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.container .form-container .form-inner a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=styles.css.map */

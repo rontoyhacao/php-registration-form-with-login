@@ -1,0 +1,3 @@
+this is my project made out of our performance task given to us by our professor in our online class subject: ITST 302 Client-Server Technologies and i have decided to have it a repository here on github. :))
+
+we were tasked to create a simple registration form with login function made of php. i honestly struggled a little bit since it has back-end and i'm still committed to learning the front-end development at the time. stacks used were html, css/sass, and php. 
